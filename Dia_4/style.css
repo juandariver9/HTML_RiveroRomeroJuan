@@ -1,0 +1,47 @@
+/* Estilos de formulario */
+.Form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Form label {
+    display: inline-block;
+    font-weight: bold; /*Negrilla*/
+    margin-bottom: 5px;
+    margin-right: 10px; /* Espacio entre los elementos label y los inputs */
+}
+
+.Form input[type="text"],
+.Form input[type="email"] {
+    width: calc(100% - 20px); /*Ajusta el ancho del bloque de texto - 20px*/
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* por si las dudas*/
+}
+
+.Form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+.Form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+}
