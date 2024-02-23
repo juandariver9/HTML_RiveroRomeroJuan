@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    color: #333;
+}
+
+.container {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    color: darkred;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1:first-of-type,
+h2:first-of-type {
+    text-align: center; /*para centrar solo el primer h1 y h2 */
+    color: black;
+    line-height: 0.5;
+}
+
+h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+ul {
+
+    color: black;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    color: #666;
+    font-size: 15px;
+}

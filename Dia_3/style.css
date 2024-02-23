@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+    background-color: pink;
+}
+h1 {
+    font-size: 50px;
+}
+
+#Prin {
+    font-size: 100px;
+    
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  button {
+    margin: 10px;
+    font-size: 100px;
+  }
