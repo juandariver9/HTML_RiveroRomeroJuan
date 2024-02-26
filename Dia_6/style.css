@@ -1,15 +1,22 @@
-.open-sans-custom {
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+@font-face {
+    font-family: Regular;
+    src: url(/Dia_6/Fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: Bold;
+    src: url(/Dia_6/Fonts/OpenSans-SemiBold.ttf);
 }
 
 body{
     background-color: white;
     margin: 0;
 }
-
+a {
+    text-decoration: none;
+    color: black;
+}
 .LogoMetro img {
-    width: 200px; 
+    width: 400px; 
     position: absolute;
     top: 43px;
     left: 43px;
@@ -34,12 +41,30 @@ body{
 }
 
 .Textos #Cantidad{
+    font-family: Regular;
     position: absolute;
     left: 1825px;
     color: #FFFFFF;
     font-size: 20px;
     top: 280px;
 
+}
+
+.Textos #Texto1 {
+    font-family: Bold;
+    position: absolute;
+    top: 840px;
+    left: 58px;
+    width: 900px;
+    font-size: 50px;
+}
+.Textos #Precio {
+    font-family: Bold;
+    position: absolute;
+    left: 58px;
+    top: 930px;
+    width: 300px;
+    font-size: 37px;
 }
 
 .Arrow img {
@@ -57,4 +82,81 @@ body{
     width: 24px;
     height: 13px;
     transform: scaleY(-1);
+}
+
+.Shop img{
+    position: absolute;
+    left: 1730px;
+    top: 51px;
+    width: 40px;
+}
+
+.Lupita img {
+    position: absolute;
+    left: 1630px;
+    top: 51px;
+    width: 40px;
+}
+
+#Sald {
+    margin: 0;
+    position: absolute;
+    font-family: Regular;
+    font-size: 35px;
+    top: 48px;
+    left: 1430px;
+
+}
+
+#Comp {
+    margin: 0;
+    position: absolute;
+    font-family: Regular;
+    font-size: 35px;
+    top: 48px;
+    left: 1100px;
+    
+}
+
+.bar img{
+    position: absolute;
+    top: 110px;
+    left: 1135px;
+    width: 200px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+.cuadrado {
+    position: absolute;
+    width: 172px;
+    height: 130px;
+    background-color: yellow;
+    top: 890px;
+    left: 1560px;
+    z-index: -1;
+}
+
+
+.LogoCuadrado img {
+    width: 140px; 
+    position: absolute;
+    top: 920px;
+    left: 1575px;
+}
+
+#Comprarr {
+    position: absolute;
+    font-family: Bold;
+    font-size: 30px;
+    left: 1582px;
+    top: 930px;
+}
+
+.ImagenMetro img{
+    margin: 0;
+    position: absolute;
+    width: 1200px;
+    top: 150px;
+    left: 300px;
 }
