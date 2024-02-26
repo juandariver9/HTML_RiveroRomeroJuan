@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Bold;
+    src: url('/Dia_5/Fonts/AmazonEmber_Bd.ttf');
+}
+
+@font-face {
+    font-family: Light;
+    src: url('/Dia_5/Fonts/AmazonEmber_Lt.ttf');
+}
+
+
+
+body {
+    background-color: black; /* Color de fondo del body */
+    margin: 0;
+    padding: 0;
+    width: 100vw; /* Ancho igual al ancho de la ventana */
+    height: 665px; /* Altura igual al alto de la ventana menos 588px */
+    background-image: url("/Dia_5/Imagenes/FondoTwitch.png"); /* Imagen de fondo */
+    background-size: cover; /* Cubre toda el área del contenedor */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    z-index: 0;
+}
+.Lupita {
+    width: 36px;
+    height: 36px;
+    background: transparent url('/Dia_5/Imagenes/Lupita.png') 0% 0% no-repeat;
+
+}
+
+.Enlace-Lupita {
+    display: inline-block; /* Ajusta el área de clic del enlace al tamaño del elemento "Lupita" */
+    width: 36px; /* Mismo ancho que el elemento "Lupita" */
+    height: 36px; /* Mismo alto que el elemento "Lupita" */
+    position: absolute; /* Para permitir el posicionamiento exacto */
+    top: 36px; /* Ajusta la posición vertical */
+    left: 36px; /* Ajusta la posición horizontal */
+}
+
+.LogoPrime {
+    width: 556px;
+    height: 313px;
+    background: transparent url('/Dia_5/Imagenes/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    position: absolute;
+    left: 385px;
+    top: 100px;
+}
+
+.Texto {
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    color: white;
+    font-family: Bold;
+    font-size: 130%;
+}
+
+.Texto2 {
+    position: absolute;
+    top: 62%;
+    left: 17%;
+    width: 860px;
+    height: 102px;
+    font-size: 130%;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    color: white;
+    opacity: 1;
+    font-family: Light;
+    text-align: center; /* Justifica el texto dentro del contenedor al centro */
+}
+
+
+.Sign {
+    padding: 0px;
+    background-color: #f9f9f9;
+    border-radius: 80px;
+    position: absolute;
+    left: 38.5%;
+    top: 80%;
+    font-family: Light;
+    font-size: 140%;
+    padding-left: 50px; /* Agrega sangría de 20px al lado izquierdo */
+    padding-right: 50px; /* Agrega sangría de 20px al lado derecho */
+    color: black;
+    font-weight: bold; /* Hacer el texto en negrita */
+}
+
+
+.Login {
+    padding: 0px;
+    background-color: #f9f9f9;
+    border-radius: 80px;
+    position: absolute;
+    left: 88%;
+    top: 2%;
+    font-family: Light;
+    font-size: 90%;
+    padding-left: 50px; /* Agrega sangría de 20px al lado izquierdo */
+    padding-right: 50px; /* Agrega sangría de 20px al lado derecho */
+    color: black;
+    font-weight: bold; /* Hacer el texto en negrita */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
