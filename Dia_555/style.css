@@ -1,0 +1,291 @@
+@font-face {
+    font-family: Bold;
+    src: url('/Dia_5/Fonts/AmazonEmber_Bd.ttf');
+}
+
+@font-face {
+    font-family: Light;
+    src: url('/Dia_5/Fonts/AmazonEmber_Lt.ttf');
+}
+
+.imagenI{
+    background-image: url(./Imagenes/Fond.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
+    margin: 0;
+}
+body {
+    width: 1920px;
+    height: 1080px;
+    background-color: #000;
+    margin: 0;
+    
+}
+.Lupita {
+    width: 36px;
+    height: 36px;
+    background: transparent url('/Dia_5/Imagenes/Lupita.png') 0% 0% no-repeat;
+
+}
+.Enlace-Lupita {
+    display: inline-block; 
+    width: 36px; 
+    height: 36px;
+    position: absolute; 
+    top: 36px; 
+    left: 50px; 
+}
+.logo {
+    position: absolute;
+    top: 227px;
+    left: 682px;
+    width: 556px;
+    height: 313px;
+}
+.texto1{
+    color: white;
+    font-family: "Bold";
+    font-weight: bold;
+    position: absolute;
+    font-size: 60px;
+    top: 443px;
+    left: 396px;
+    width: 1151px;
+    height: 60px;
+}
+.login{
+    position: absolute;
+    top: 30px;
+    left: 1695px;
+    width: 205px;
+    height: 54px;
+}
+.loginT{
+    color: #000000;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 20px;
+    top: 48px;
+    left: 1773px;
+    width: 50px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.textoL{
+    color: white;
+    font-family: Light;
+    font-weight: normal;
+    position: absolute;
+    font-size: 30px;
+    top: 570px;
+    left: 370px;
+    width: 1160px;
+    height: 102px;
+    text-align: center;
+}
+.signup{
+    position: absolute;
+    top: 755px;
+    left: 730px;
+    width: 458px;
+    height: 104px
+}
+.textoS{
+    color: #000000;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 40px;
+    top: 780px;
+    left: 780px;
+    width: 360px;
+    height: 40px;    
+}
+.azul1{
+    position: absolute;
+    top: 1106px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+.azul2{
+    position: absolute;
+    top: 1717px;
+    left: 64px;
+    width: 1792px;
+    height: 724px;
+}
+.texto2{
+    color: white;
+    font-family: "AmazonEmber";
+    font-weight: bold;
+    position: absolute;
+    font-size: 60px;
+    top: 1710px;
+    left: 135px;
+    width: 1664px;
+    height: 60px;
+}
+.peli1{
+    position: absolute;
+    top: 1896px;
+    left: 477px;
+    width: 181px;
+    height: 309px;
+}
+.peli2{
+    position: absolute;
+    top: 1896px;
+    left: 670px;
+    width: 181px;
+    height: 309px;
+}
+.peli3{
+    position: absolute;
+    top: 1896px;
+    left: 863px;
+    width: 180px;
+    height: 309px;
+}
+.peli4{
+    position: absolute;
+    top: 1896px;
+    left: 1055px;
+    width: 181px;
+    height: 309px;
+}
+.peli5{
+    position: absolute;
+    top: 1896px;
+    left: 1248px;
+    width: 181px;
+    height: 309px;
+}
+.texto3{
+    color: white;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 50px;
+    top: 2215px;
+    left: 175px;
+    width: 1560px;
+    height: 110px;
+    text-align: center;    
+}
+.azul3{
+    position: absolute;
+    top: 2467px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+}
+.texto4{
+    color: white;
+    font-family: "Bold";
+    font-weight: bold;
+    position: absolute;
+    font-size: 60px;
+    top: 2546px;
+    left: 560px;
+    width: 800px;
+    height: 60px;
+}
+.x{
+    position: absolute;
+    top: 2670px;
+    left: 876px;
+    width: 169px;
+    height: 169px;    
+}
+.texto5{
+    color: white;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 40px;
+    top: 2881px;
+    left: 269px;
+    width: 1382px;
+    height: 88px;
+    text-align: center;
+}
+.texto6{
+    color: white;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 125px;  
+    top: 3127px;
+    left: 418px;
+    width: 1118px;
+    height: 125px; 
+}
+.texto7{
+    color: white;
+    font-family: "Light";
+    font-weight: normal;
+    position: absolute;
+    font-size: 45px;  
+    top: 3296px;
+    left: 181px;
+    width: 1544px;
+    height: 99px;
+    text-align: center;
+}
+.compatible1{
+    position: absolute;
+    top: 3440px;
+    left: 685px;
+    width: 584px;
+    height: 534px;
+}
+.compatible2{
+    position: absolute;
+    top: 3606px;
+    left: 386px;
+    width: 256px;
+    height: 219px;
+}
+.compatible3{
+    position: absolute;
+    top: 3587px;
+    left: 1261px;
+    width: 271px;
+    height: 238px;
+}
+.flecha1{
+    position: absolute;
+    top: 3680px;
+    left: 305px;
+    width: 19px;
+    height: 27px;
+}
+.flecha2{
+    position: absolute;
+    top: 3702px;
+    left: 1575px;
+    width: 18px;
+    height: 26px;
+    transform: scalex(-1)
+}
+.logoC{
+    position: absolute;
+    top: 3954px;
+    left: 826px;
+    width: 430px;
+    height: 241px;
+}
+footer{
+    position: absolute;
+    top: 4088px;
+    left: 543px;
+    width: 831px;
+    height: 25px;    
+}
