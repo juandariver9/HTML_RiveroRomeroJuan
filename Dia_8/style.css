@@ -1,0 +1,62 @@
+
+
+/* Estilos para Pantalla1 - Home */
+.Pantalla1 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: 100vh; /* Cambiado de 1080px a 100vh */
+}
+
+/* Estilos para Pantalla2 - About */
+.Pantalla2 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: 100vh; /* Cambiado de 1080px a 100vh */
+}
+
+/* Estilos para Pantalla3 - Menu */
+.Pantalla3 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: auto; /* Eliminado el alto fijo para que se ajuste al contenido */
+}
+
+/* Estilos para Pantalla4 - Service */
+.Pantalla4 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: auto; /* Eliminado el alto fijo para que se ajuste al contenido */
+}
+
+/* Estilos para Pantalla5 */
+.Pantalla5 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: auto; /* Eliminado el alto fijo para que se ajuste al contenido */
+}
+
+/* Estilos para Pantalla6 - Contact */
+.Pantalla6 {
+    width: 100%; /* Cambiado de 1920px a 100% */
+    height: auto; /* Eliminado el alto fijo para que se ajuste al contenido */
+}
+
+/* Botón común */
+button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw; /* Cambiado de px a vw */
+    width: 20vw; /* Cambiado de px a vw */
+    height: 7vh; /* Cambiado de px a vh */
+    margin: 0;
+}
+
+/* Textos comunes */
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw; /* Cambiado de px a vw */
+}
+
+/* Imágenes comunes */
+img {
+    width: 30vw; /* Cambiado de px a vw */
+    height: auto; /* Para mantener la proporción */
+}
+@media screen and (max-width: 768px) {
+    /* Estilos para pantallas menores o iguales a 768px */
+    /* Aquí puedes ajustar los estilos según sea necesario */
+}

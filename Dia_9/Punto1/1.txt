@@ -1,0 +1,3 @@
+1. Crear una barra de navegación horizontal que sea flexible y se ajuste automaticamente al tamaño de los elementos. 
+    Debe tener cuatro elementos de enlace: "inicio", "Acerca de", "Servicios" y "Contacto". Los elementos deben estar centrados
+    horizontalmente y separados con un espacio uniforme
