@@ -1,17 +1,120 @@
 body {
-    background-color: gray;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.container {
-    width: calc(80vh * (16 / 9)); 
-    height: 80vh; 
-    max-width: 90%; 
     background-image: url(./Imagenes/background.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    display: flex;
+    min-height: 100vh; 
+}
+
+#Casa {
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+    width: auto;
+    height: 50%;
+}
+
+.Flor {
+    position: absolute;
+    left: 14vw;
+    top: 73vh;
+    opacity: 0; 
+    animation: Florr 2s 20s forwards;
+}
+
+#Flor {
+    width: 5vw;
+    height: auto;
+}
+
+@keyframes Florr {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.sol {
+    position: absolute;
+    right: 10vw;
+    top: 3vh;
+    opacity: 50%;
+    animation: soll 2s alternate 15s forwards; 
+}
+
+#sol {
+    width: 30vw;
+    height: auto;
+}
+
+@keyframes soll {
+    to {opacity: 100%;}
+}
+
+
+.nube {
+    position: absolute;
+    left: 7vw;
+    top: 10vh;
+    animation: nube 10s 6s, lluvia 2s 16s forwards;
+}
+
+#nube {
+    width: 20vw;
+    height: auto;
+}
+
+@keyframes nube {
+    from {left: -300px;}
+    to {left: 7vw;}
+}
+
+
+.lluvia {
+    position: absolute;
+    left: 9vw;
+    top: 15vw;
+    z-index: -1;
+    opacity: 0%;
+    animation: moverLluvia 5s 18s forwards; 
+
+}
+
+#lluvia {
+    width: 15vw;
+    height: 28vw;
+}
+
+@keyframes moverLluvia {
+    0% { left: 9vw; }
+    from {opacity: 100%;}
+    to {opacity: 0%;}
+}
+
+.contador {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 100px;
+    text-align: center;
+    background: none;
+}
+
+.contador::after {
+    content: "1";
+    justify-content: center;
+    align-items: center;
+    animation: Cont 8s forwards;
+}
+
+
+@keyframes Cont {
+    0%, 12.5% { content: "1"; opacity: 1; }
+    25%, 37.5% { content: "2"; opacity: 1; }
+    50%, 62.5% { content: "3"; opacity: 1; }
+    75%, 87.5% { content: "Ready!"; opacity: 1; }
+    90% { opacity: 0; }
+    100% { opacity: 0;}
 }
